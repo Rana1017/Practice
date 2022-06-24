@@ -1,0 +1,92 @@
+@import "nav";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.main{
+    background-color: $secondarycolor;
+    .main_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-self: center;
+        margin: 0 auto;
+        height: 90vh;
+        width: 100%;
+        max-width: 1200px;
+        padding-right: 24px;
+        padding-left: 24px;
+
+        @include tablet{
+            grid-template-columns: 1fr;
+            height: 100%;
+        }
+
+    }
+    .main_container-left{
+        width: 100%;
+        line-height: 1.2;
+        @include tablet{
+            padding: 5rem 0;
+        }
+        @include mobile{
+            line-height: 1.5;
+        }
+
+    }
+    .main_container-left h1{
+        font-size: 4rem;
+        color: $tertiarycolor;
+     @include mobile{
+        font-size: 1.5rem;
+     }   
+
+    }
+
+    .main_container-left h2{
+        font-size: 4rem;
+     @include mobile{
+        font-size: 2rem;
+     }   
+
+    }
+    .main_container-left p{
+        font-size: 2rem;
+        margin-top: 1rem;
+        font-weight: 700;
+     @include mobile{
+        font-size: 1.5rem;
+     }   
+
+    }
+    .main_container--btn{
+        font-size: 1rem;
+        background-color: $tertiarycolor;
+        padding: 14px 32px;
+        border: none;
+        border-radius: 4px;
+        margin-top: 2rem;
+        position: relative;
+        transition: all 0.3s;
+        outline: none;
+        
+
+    }
+    .main_container--btn a{
+        text-decoration: none;
+        color: $secondarycolor;
+    }
+    .main_container-right{
+        text-align: center;
+    }
+    .main_container-img{
+        height: 100%;
+        width: 100%;
+    }
+
+
+}
