@@ -1,0 +1,84 @@
+/** Colors for the page**/
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #EABDCB;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.container {
+  width: 85%;
+  max-width: 75em;
+  margin: 0 auto;
+}
+.container .product_description {
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+.container .header-passage {
+  padding-bottom: 1em;
+}
+.container .section-tea {
+  padding: 1em 0.5em;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5em 1.25em;
+  border-radius: 0.5em;
+  background-color: #306E66;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  color: aliceblue;
+}
+
+.primary-title {
+  font-size: 4rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.top {
+  text-align: center;
+  color: #FAF1F1;
+  padding: 1.5em 0;
+  background-color: #2A3057;
+}
+
+.chat-box {
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  left: 78em;
+}
+
+.container-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2A3057;
+  width: 85%;
+  max-width: 75em;
+  margin: 0 auto;
+}
+
+.container-box div {
+  border: 1.5px solid #EABDCB;
+  padding: 10px;
+  color: #FAF1F1;
+  border-radius: 0.5rem;
+}/*# sourceMappingURL=main.css.map */

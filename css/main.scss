@@ -1,0 +1,86 @@
+@import "variables";
+@import "mixin";
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: $primarycolor;
+   
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+h1,
+h2,
+h3,
+p{
+    margin: 0;
+}
+
+.container{
+    width: 85%;
+    max-width: 75em;
+    margin: 0 auto;
+    .product_description{
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+    .header-passage{
+        padding-bottom: 1em;
+    }
+    .section-tea{
+        padding: 1em 0.5em;
+        font-size: 2rem;
+        font-weight:bold;
+    }
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: .5em 1.25em;
+    border-radius: 0.5em;
+    background-color: $buttoncolor;
+    @include fonts;
+    color: aliceblue;
+}
+.primary-title{
+   font-size: 4rem;
+   line-height: 1.1;
+   text-transform: uppercase;
+    
+}
+.top{
+    text-align: center;
+    color: $secondarycolor;
+    padding: 1.5em 0;
+    background-color: $tertiarycolor;
+}
+
+.chat-box{
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    left: 78em;
+}
+.container-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $tertiarycolor;
+    width: 85%;
+    max-width: 75em;
+    margin: 0 auto;
+
+}
+.container-box div{
+    border: 1.5px solid $primarycolor;
+    padding:10px;
+    color: $secondarycolor;
+    border-radius: 0.5rem;
+   
+}
+
+
+
