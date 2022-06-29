@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <!---Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>HomePage</title>
+</head>
+<body>   
+ 
+   <!---main form section-->
+   <div class="container">
+      <div class="forms">
+        <div class="form login">
+            <span class="title">Login</span>
+            <form id="form" action="#" method="get">
+                <div class="input-field">
+                    <input type="text" placeholder="Enter Your Email" name="email" id="email" required>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="input-field">
+                    <input type="password" class="password" placeholder="Enter Your Password" name="" id="password">
+                    <i class="fa-solid fa-lock icon"></i>
+                    <i class="fa-solid fa-eye-slash showHiddenPwd"></i>
+
+                </div>
+
+                <div class="checkbox-text">
+                    <div class="checkbox-content">
+                        <input type="checkbox" id="checkLog">
+                        <label for="checkLog" class="text">Remember me</label>
+                    </div>
+                    <a href="#" class="text">Forgot Password?</a>
+                </div>
+                <div class="input-field button">
+                    <button>
+                        <input type="button" value="Login">    
+                    </button>
+                 
+                </div>
+            </form>
+            <div class="signup">
+                <span class="text">Not a member?</span>
+                <a href="" class="text signup-text">Signup now</a>
+            </div>
+            
+        </div>
+      </div>
+   </div>
+    </div>
+     
+    <script src="js/main.js"></script> 
+</body>
+</html>

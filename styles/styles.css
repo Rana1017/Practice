@@ -1,0 +1,110 @@
+/** Colors for the page**/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #EABDCB;
+}
+
+.container {
+  position: relative;
+  background: #FAF1F1;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.container .form {
+  padding: 30px;
+}
+.container .form .title {
+  font-size: 27px;
+  font-weight: bold;
+  position: relative;
+}
+.container .form .title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  background-color: #2A3057;
+}
+.container .form .input-field {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin-top: 30px;
+}
+.container .input-field input {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 0 35px;
+  border: none;
+}
+.container .input-field i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-left: 10px;
+  color: #999;
+  font-size: 18px;
+}
+.container .input-field i.icon {
+  left: 0;
+}
+.container .input-field i.showHiddenPwd {
+  right: 0;
+}
+.container .form .checkbox-text {
+  margin-top: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.container .checkbox-text .checkbox-content {
+  display: flex;
+  align-items: center;
+}
+.container .checkbox-content input {
+  margin: 0 8px -2px 4px;
+}
+.container .form .text {
+  color: #333;
+  font-size: 14px;
+}
+.container .form a {
+  text-decoration: none;
+}
+.container .form a:hover {
+  text-decoration: underline;
+}
+.container .form .button {
+  margin-top: 15px;
+}
+.container .form .button input {
+  border: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  background-color: #2A3057;
+}
+
+.signup {
+  margin-top: 20px;
+  text-align: center;
+  justify-content: space-evenly;
+}/*# sourceMappingURL=styles.css.map */
