@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: #FFFEFE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  max-width: 450px;
+  width: 100%;
+  padding: 40px;
+  border-radius: 6px;
+}
+.form .google-link a {
+  display: flex;
+  background-color: #4267b2;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.form a.google {
+  color: #FFFEFE;
+  letter-spacing: 1px;
+}
+.form .logo {
+  text-align: center;
+}
+.form .logo .logo-link svg {
+  font-size: 12px;
+}
+
+form {
+  margin-top: 30px;
+}
+form .field {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin-top: 35px;
+  border-radius: 6px;
+}
+form .field input,
+form .field button {
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+}
+form .field input {
+  padding: 0 20px;
+  background: #DBE5E4;
+  outline: none;
+}
+form .google-link .google span {
+  padding: 2px;
+}
+form p {
+  padding-bottom: 3px;
+  font-size: 18px;
+}
+form .field button {
+  background-color: #2A3057;
+  color: #FFFEFE;
+  cursor: pointer;
+}
+form .eye-icon {
+  position: absolute;
+  top: 100%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  cursor: pointer;
+  padding: 3px;
+}
+form .form-link-pw {
+  margin-top: 35px;
+  text-align: end;
+  letter-spacing: 0.5px;
+}
+form .form-link {
+  text-align: center;
+  margin-top: 10px;
+}
+form .form-link span,
+form .form-link span a {
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+form .form-link span a {
+  text-decoration: none;
+  color: #4267b2;
+}
+form .form-link span a:hover {
+  text-decoration: underline;
+}
+form .form-link-pw a {
+  text-decoration: none;
+  color: black;
+}
+form .form-link-pw a:hover {
+  text-decoration: underline;
+}
+form .line {
+  position: relative;
+  height: 1px;
+  width: 100%;
+  background-color: #A19999;
+  margin: 28px 0;
+}
+form .line::before {
+  content: "Or";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #FFFEFE;
+  padding: 0 15px;
+}/*# sourceMappingURL=style.css.map */

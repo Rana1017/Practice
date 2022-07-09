@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import "colors";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;  
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: $primarycolor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    max-width: 450px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 6px;
+
+    .google-link a{
+        display: flex;
+        background-color: $linkColor;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+        a.google{
+            color: $primarycolor;
+            letter-spacing: 1px;      
+    }
+ 
+    .logo{
+        text-align: center;    
+        .logo-link svg{
+            font-size: 12px;     
+      }  
+   
+}
+
+}
+
+form{
+    margin-top: 30px;
+
+    .field{
+        position: relative;
+        height: 50px;
+        width: 100%;
+        margin-top: 35px;
+        border-radius: 6px;
+    }
+
+    .field input, 
+    .field button{
+        height: 100%;
+        width: 100%;
+        border: none;
+        font-size: 16px;
+        border-radius: 6px;
+    }
+    .field input{
+        padding: 0 20px;    
+        background: #DBE5E4;
+        outline: none;
+    }
+    .google-link .google span{
+        padding: 2px;
+    }
+    p{
+        
+        padding-bottom: 3px;
+        font-size: 18px;
+       
+    }
+    .field button{
+        background-color: $btncolor;
+        color: $primarycolor;
+        cursor: pointer;
+    }
+    .eye-icon{
+        position: absolute;
+        top: 100%;
+        right: 10px;
+        transform: translateY(-50%);
+        font-size: 18px;  
+        cursor: pointer;
+        padding: 3px;
+        
+    }
+    .form-link-pw {
+        margin-top: 35px;
+        text-align: end;
+        letter-spacing: .5px;
+    }
+    .form-link{
+        text-align: center;
+        margin-top: 10px;
+    } 
+    .form-link span,
+    .form-link span a{
+        text-align: center;
+        font-size: 16px;
+        letter-spacing: .5px;
+        font-weight: 400;                  
+    }
+  
+    .form-link span a{
+        text-decoration: none;
+        color: $linkColor;     
+    }
+    .form-link span a:hover{
+        text-decoration: underline;
+    }
+    .form-link-pw a {
+        text-decoration: none;
+        color: black;
+          
+    } 
+    .form-link-pw a:hover{
+        text-decoration: underline;
+    } 
+
+    .line{
+        position: relative;
+        height: 1px;
+        width: 100%;
+        background-color: #A19999;
+        margin: 28px 0;
+    }
+    .line::before{
+        content: 'Or';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: $primarycolor;
+        padding: 0 15px;
+       
+    }
+
+}
+
+
+
