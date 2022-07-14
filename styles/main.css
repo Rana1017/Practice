@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero-page {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/images/img.svg);
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-description {
+  margin-right: 420px;
+}
+.hero-description h1 {
+  font-size: 50px;
+}
+.hero-description p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.btn-explore {
+  margin-top: 24px;
+}
+.btn-explore a {
+  text-decoration: none;
+  margin-top: 20px;
+  background: #2A3057;
+  padding: 18px 15px;
+  color: white;
+  border-radius: 0 0 0 6px;
+}
+
+.order-sec {
+  height: 40vh;
+  width: 100%;
+  background: #2A3057;
+  color: white;
+}
+.order-sec .working-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.testimonial-sec {
+  height: 70vh;
+  width: 100%;
+  background: #EABDCB;
+}
+.testimonial-sec .testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.testimonial-sec .testimonial .statement {
+  padding: 15px 30px;
+  background: #FFFEFE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 14px;
+  border-radius: 0 0 0 16px;
+}
+.testimonial-sec .arrow-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial-sec .arrow-sec .arrow {
+  margin-top: 25px;
+  padding: 30px 120px;
+  justify-content: space-around;
+}/*# sourceMappingURL=main.css.map */
