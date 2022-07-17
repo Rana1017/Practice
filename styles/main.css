@@ -40,44 +40,103 @@
   border-radius: 0 0 0 6px;
 }
 
-.order-sec {
-  height: 40vh;
+.orderContainer {
+  background-color: #2A3057;
+}
+.orderContainer .orderSection {
   width: 100%;
-  background: #2A3057;
+  margin: 0 auto;
+  padding: 48px;
+}
+.orderContainer .orderSection .orderHeading {
   color: white;
-}
-.order-sec .working-sec {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  align-items: baseline;
+  padding-left: 6rem;
 }
-
-.testimonial-sec {
-  height: 70vh;
-  width: 100%;
-  background: #EABDCB;
+.orderContainer .orderSection .orderHeading img {
+  margin-left: 8px;
 }
-.testimonial-sec .testimonial {
+.orderContainer .orderSection .orderSteps {
+  margin: 80px 0 0 0;
+}
+.orderContainer .orderSection .orderSteps .orderStepsContent {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
-.testimonial-sec .testimonial .statement {
-  padding: 15px 30px;
-  background: #FFFEFE;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: 14px;
-  border-radius: 0 0 0 16px;
+.orderContainer .orderSection .orderSteps .orderStepsContent .orderProcess {
+  text-align: center;
+  color: white;
 }
-.testimonial-sec .arrow-sec {
+.orderContainer .orderSection .orderSteps .orderStepsContent .orderProcess img {
+  height: 40px;
+}
+.orderContainer .orderSection .orderSteps .orderStepsContent .orderProcess p {
+  margin-top: 14px;
+  font-weight: bold;
+}
+.orderContainer .orderSection .orderSteps .locationInfo {
+  text-align: center;
+  color: white;
+  width: 30%;
+  margin: 48px auto 0 auto;
+}
+
+.testimonialContainer {
+  background-color: #EABDCB;
+}
+.testimonialContainer .testimonialSection {
+  width: 100%;
+  margin: 0 auto;
+  padding: 64px;
+}
+.testimonialContainer .testimonialHeading {
+  display: flex;
+  align-items: baseline;
+  padding-left: 6rem;
+}
+.testimonialContainer .testimonialHeading img {
+  margin-left: 8px;
+}
+.testimonialContainer .testimonialStatement {
+  position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
 }
-.testimonial-sec .arrow-sec .arrow {
-  margin-top: 25px;
-  padding: 30px 120px;
-  justify-content: space-around;
+.testimonialContainer .testimonialStatement .statementByCustomers {
+  background-color: #FFFEFE;
+  margin: 16px;
+  padding: 16px 24px;
+  width: 30%;
+  border-radius: 0 0 0 25px;
+}
+.testimonialContainer button {
+  position: absolute;
+  bottom: 10%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.testimonialContainer .arrow-left {
+  margin-right: 1000px;
+}
+.testimonialContainer .arrow-right {
+  margin-left: 1000px;
+}
+
+.navigationContainer {
+  background-color: #2A3057;
+}
+.navigationContainer .navigationSection {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.navigationContainer .navigationSection .nav-menus {
+  margin: 48px;
+}
+.navigationContainer .navigationSection .nav-menus li {
+  list-style-type: none;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
